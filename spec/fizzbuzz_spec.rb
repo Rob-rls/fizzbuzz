@@ -9,12 +9,12 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(5)).to eq 'buzz'
   end
 
-  it 'returns "fizzbuzz" when passed 15' do
-    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+  it 'returns "fizzbuzz" when passed 30' do
+    expect(fizzbuzz(30)).to eq 'fizzbuzz'
   end
 
-  it 'returns 17 when passed 17' do
-    expect(fizzbuzz(17)).to eq 17
+  it 'returns 29 when passed 29' do
+    expect(fizzbuzz(29)).to eq 29
   end
-
+  
 end
