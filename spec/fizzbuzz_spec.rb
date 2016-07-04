@@ -1,6 +1,7 @@
 require 'fizzbuzz'
 
 describe 'fizzbuzz' do
+
   it 'returns "fizz" when passed 3' do
     expect(fizzbuzz(3)).to eq 'fizz'
   end
@@ -16,4 +17,5 @@ describe 'fizzbuzz' do
   it 'returns 17 when passed 17' do
     expect(fizzbuzz(17)).to eq 17
   end
+
 end
